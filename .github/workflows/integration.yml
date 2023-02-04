@@ -6,8 +6,8 @@ on:
 concurrency: ${{ github.workflow }}-${{ github.ref }}
 
 jobs:
-  release:
-    name: Release
+  Integration:
+    name: Integration
 
     runs-on: ubuntu-latest
 
