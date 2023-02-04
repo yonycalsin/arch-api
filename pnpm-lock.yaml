@@ -18,6 +18,20 @@ importers:
       prettier: 2.8.3
       turbo: 1.7.3
 
+  packages/common:
+    specifiers:
+      '@arch-api/tsconfig': workspace:*
+      '@types/node': 18.11.18
+      rimraf: 4.1.2
+      tsup: 6.5.0
+      typescript: 4.9.5
+    devDependencies:
+      '@arch-api/tsconfig': link:../tsconfig
+      '@types/node': 18.11.18
+      rimraf: 4.1.2
+      tsup: 6.5.0_typescript@4.9.5
+      typescript: 4.9.5
+
   packages/cqrs:
     specifiers:
       '@arch-api/tsconfig': workspace:*
