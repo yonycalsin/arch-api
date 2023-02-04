@@ -17,3 +17,6 @@ include_coauthors = true
 include_pr_number = true
 body_type = "markdown"
 strip_html_comments = true
+
+[approve]
+approve.auto_approve_labels = ["approve"]
