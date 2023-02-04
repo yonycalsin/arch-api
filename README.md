@@ -1,8 +1,12 @@
 # Arch Api
 
-## Packages
+## Public Packages
 
--
+- @arch-api/cqrs
+
+## Private Packages
+
+- @arch-api/tsconfig
 
 ## Stay in touch
 
