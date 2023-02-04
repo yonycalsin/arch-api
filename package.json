@@ -1,0 +1,26 @@
+{
+  "name": "@yonycalsin/arch-api",
+  "version": "0.0.0",
+  "private": true,
+  "license": "ISC",
+  "author": "Yony Calsin",
+  "scripts": {
+    "lib:pretty": "prettier --ignore-path .gitignore \"**/*.{js,json,ts,md}\"",
+    "lint": "run-p lint:*",
+    "lint:pretty": "pnpm run lib:pretty --list-different",
+    "fix:lint": "run-s fix:lint:*",
+    "fix:lint:pretty": "pnpm run lib:pretty --write"
+  },
+  "devDependencies": {
+    "@yonycalsin/prettier-config-node-typescript": "2.0.0",
+    "npm-run-all": "4.1.5",
+    "prettier": "2.8.3"
+  },
+  "packageManager": "pnpm@7.14.2",
+  "engines": {
+    "node": "16.15.0"
+  },
+  "volta": {
+    "node": "16.15.0"
+  }
+}
