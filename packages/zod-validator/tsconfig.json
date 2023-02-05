@@ -1,0 +1,5 @@
+{
+  "extends": "@arch-api/tsconfig/node-tsup.json",
+  "include": ["src"],
+  "exclude": ["dist", "node_modules"]
+}

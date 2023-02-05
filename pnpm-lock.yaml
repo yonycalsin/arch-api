@@ -150,6 +150,29 @@ importers:
       tsup: 6.5.0_typescript@4.9.5
       typescript: 4.9.5
 
+  packages/zod-validator:
+    specifiers:
+      '@arch-api/http-exceptions': workspace:*
+      '@arch-api/tsconfig': workspace:*
+      '@arch-api/validator': workspace:*
+      '@types/node': 18.11.18
+      rimraf: 4.1.2
+      tsup: 6.5.0
+      typescript: 4.9.5
+      zod: 3.20.2
+      zod-validation-error: 0.3.1
+    dependencies:
+      '@arch-api/http-exceptions': link:../http-exceptions
+      '@arch-api/validator': link:../validator
+      zod: 3.20.2
+      zod-validation-error: 0.3.1_zod@3.20.2
+    devDependencies:
+      '@arch-api/tsconfig': link:../tsconfig
+      '@types/node': 18.11.18
+      rimraf: 4.1.2
+      tsup: 6.5.0_typescript@4.9.5
+      typescript: 4.9.5
+
 packages:
 
   /@babel/code-frame/7.18.6:
@@ -2902,3 +2925,16 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
     dev: true
+
+  /zod-validation-error/0.3.1_zod@3.20.2:
+    resolution: {integrity: sha512-3m7VcE4YT3ZdGJoYBZnLt8E1S/r8zPFNDWMc2njaeC7Vxe5FQbgIiwHoerSkli5PgsUyxWQhpFxEAJXkBJvoDg==}
+    engines: {node: ^14.17 || >=16.0.0}
+    peerDependencies:
+      zod: ^3.18.0
+    dependencies:
+      zod: 3.20.2
+    dev: false
+
+  /zod/3.20.2:
+    resolution: {integrity: sha512-1MzNQdAvO+54H+EaK5YpyEy0T+Ejo/7YLHS93G3RnYWh5gaotGHwGeN/ZO687qEDU2y4CdStQYXVHIgrUl5UVQ==}
+    dev: false
