@@ -1,5 +1,11 @@
 # @arch-api/exceptions
 
+## 2.0.0
+
+### Major Changes
+
+- [#37](https://github.com/yonycalsin/arch-api/pull/37) [`3c9ea5d`](https://github.com/yonycalsin/arch-api/commit/3c9ea5d21e510f6903f45627773588856aad27d7) Thanks [@yonycalsin](https://github.com/yonycalsin)! - add an abstractable exception
+
 ## 1.0.0
 
 ### Major Changes

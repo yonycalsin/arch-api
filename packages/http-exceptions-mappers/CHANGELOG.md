@@ -1,5 +1,12 @@
 # @arch-api/http-exceptions-mappers
 
+## 2.1.1
+
+### Patch Changes
+
+- Updated dependencies [[`3c9ea5d`](https://github.com/yonycalsin/arch-api/commit/3c9ea5d21e510f6903f45627773588856aad27d7)]:
+  - @arch-api/exceptions@2.0.0
+
 ## 2.1.0
 
 ### Minor Changes
