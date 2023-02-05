@@ -1,5 +1,11 @@
 # @arch-api/http-exceptions-mappers
 
+## 2.2.0
+
+### Minor Changes
+
+- [#39](https://github.com/yonycalsin/arch-api/pull/39) [`29d419c`](https://github.com/yonycalsin/arch-api/commit/29d419c57b6be81ce512ada60412282ec006319f) Thanks [@yonycalsin](https://github.com/yonycalsin)! - export http exception mapper definition
+
 ## 2.1.1
 
 ### Patch Changes
