@@ -10,6 +10,7 @@
 - [@arch-api/http-exceptions-mappers](https://github.com/yonycalsin/arch-api/tree/main/packages/http-exceptions-mappers) - [![NPM Version](https://img.shields.io/npm/v/@arch-api/http-exceptions-mappers)](https://www.npmjs.com/package/@arch-api/http-exceptions-mappers)
 - [@arch-api/rest](https://github.com/yonycalsin/arch-api/tree/main/packages/rest) - [![NPM Version](https://img.shields.io/npm/v/@arch-api/rest)](https://www.npmjs.com/package/@arch-api/rest)
 - [@arch-api/validator](https://github.com/yonycalsin/arch-api/tree/main/packages/validator) - [![NPM Version](https://img.shields.io/npm/v/@arch-api/validator)](https://www.npmjs.com/package/@arch-api/validator)
+- [@arch-api/zod-validator](https://github.com/yonycalsin/arch-api/tree/main/packages/zod-validator) - [![NPM Version](https://img.shields.io/npm/v/@arch-api/zod-validator)](https://www.npmjs.com/package/@arch-api/zod-validator)
 
 ## Private Packages
 
