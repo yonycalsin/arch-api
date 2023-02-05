@@ -17,9 +17,6 @@
     "clean:force": "rimraf -rf node_modules",
     "dev": "tsup src/index.ts --format esm,cjs --watch --dts"
   },
-  "dependencies": {
-    "@arch-api/http-status": "workspace:*"
-  },
   "devDependencies": {
     "@arch-api/tsconfig": "workspace:*",
     "@types/node": "18.11.18",
