@@ -11,6 +11,4 @@ interface HttpExceptionMapper {
   toResponse(exception: Exception): HttpExceptionMapperResponse
 }
 
-export type { HttpExceptionMapperResponse }
-
-export default HttpExceptionMapper
+export type { HttpExceptionMapperResponse, HttpExceptionMapper }
