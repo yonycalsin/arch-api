@@ -1,5 +1,11 @@
 # @arch-api/rest
 
+## 2.2.0
+
+### Minor Changes
+
+- [#46](https://github.com/yonycalsin/arch-api/pull/46) [`39886f9`](https://github.com/yonycalsin/arch-api/commit/39886f9777e3f7c4f5608b92fef5e5d30bc48901) Thanks [@yonycalsin](https://github.com/yonycalsin)! - add action, middleware and responder definitions to the rest package
+
 ## 2.1.0
 
 ### Minor Changes
