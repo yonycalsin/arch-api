@@ -1,6 +1,10 @@
-# @arch-api/http-exceptions
+# @arch-api/zod-validator
 
-## 1.1.0
+## 1.0.0
+
+### Major Changes
+
+- [#43](https://github.com/yonycalsin/arch-api/pull/43) [`83458d5`](https://github.com/yonycalsin/arch-api/commit/83458d5a7684bdab6d40e6b7f50434308e8aa819) Thanks [@yonycalsin](https://github.com/yonycalsin)! - add zod validator
 
 ### Minor Changes
 
@@ -9,10 +13,5 @@
 ### Patch Changes
 
 - Updated dependencies [[`eea949a`](https://github.com/yonycalsin/arch-api/commit/eea949a58a622c27c1a158a3c7f829d47541ccad)]:
-  - @arch-api/http-status@2.1.0
-
-## 1.0.0
-
-### Major Changes
-
-- [#35](https://github.com/yonycalsin/arch-api/pull/35) [`262c51f`](https://github.com/yonycalsin/arch-api/commit/262c51fd29e6a55318b3ff1fd41be637be822c8e) Thanks [@yonycalsin](https://github.com/yonycalsin)! - add http exceptions
+  - @arch-api/http-exceptions@1.1.0
+  - @arch-api/validator@1.1.0

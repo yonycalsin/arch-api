@@ -1,5 +1,17 @@
 # @arch-api/http-exceptions-mappers
 
+## 2.3.0
+
+### Minor Changes
+
+- [#43](https://github.com/yonycalsin/arch-api/pull/43) [`eea949a`](https://github.com/yonycalsin/arch-api/commit/eea949a58a622c27c1a158a3c7f829d47541ccad) Thanks [@yonycalsin](https://github.com/yonycalsin)! - define the type of message of an http exception explicitly
+
+### Patch Changes
+
+- Updated dependencies [[`eea949a`](https://github.com/yonycalsin/arch-api/commit/eea949a58a622c27c1a158a3c7f829d47541ccad)]:
+  - @arch-api/exceptions@2.1.0
+  - @arch-api/http-status@2.1.0
+
 ## 2.2.0
 
 ### Minor Changes
