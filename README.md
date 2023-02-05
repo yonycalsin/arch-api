@@ -11,6 +11,7 @@
 - [@arch-api/rest](https://github.com/yonycalsin/arch-api/tree/main/packages/rest) - [![NPM Version](https://img.shields.io/npm/v/@arch-api/rest)](https://www.npmjs.com/package/@arch-api/rest)
 - [@arch-api/validator](https://github.com/yonycalsin/arch-api/tree/main/packages/validator) - [![NPM Version](https://img.shields.io/npm/v/@arch-api/validator)](https://www.npmjs.com/package/@arch-api/validator)
 - [@arch-api/zod-validator](https://github.com/yonycalsin/arch-api/tree/main/packages/zod-validator) - [![NPM Version](https://img.shields.io/npm/v/@arch-api/zod-validator)](https://www.npmjs.com/package/@arch-api/zod-validator)
+- [@arch-api/joi-validator](https://github.com/yonycalsin/arch-api/tree/main/packages/joi-validator) - [![NPM Version](https://img.shields.io/npm/v/@arch-api/joi-validator)](https://www.npmjs.com/package/@arch-api/joi-validator)
 
 ## Private Packages
 
