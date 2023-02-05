@@ -63,6 +63,23 @@ importers:
       tsup: 6.5.0_typescript@4.9.5
       typescript: 4.9.5
 
+  packages/http-exceptions-mappers:
+    specifiers:
+      '@arch-api/exceptions': workspace:*
+      '@arch-api/tsconfig': workspace:*
+      '@types/node': 18.11.18
+      rimraf: 4.1.2
+      tsup: 6.5.0
+      typescript: 4.9.5
+    dependencies:
+      '@arch-api/exceptions': link:../exceptions
+    devDependencies:
+      '@arch-api/tsconfig': link:../tsconfig
+      '@types/node': 18.11.18
+      rimraf: 4.1.2
+      tsup: 6.5.0_typescript@4.9.5
+      typescript: 4.9.5
+
   packages/http-status:
     specifiers:
       '@arch-api/tsconfig': workspace:*
@@ -1057,7 +1074,6 @@ packages:
   /esbuild/0.15.18:
     resolution: {integrity: sha512-x/R72SmW3sSFRm5zrrIjAhCeQSAWoni3CmHEqfQrZIQTM3lVCdehdwuIqaOtfC2slvpdlLa62GYoN8SxT23m6Q==}
     engines: {node: '>=12'}
-    hasBin: true
     requiresBuild: true
     optionalDependencies:
       '@esbuild/android-arm': 0.15.18
@@ -2204,13 +2220,11 @@ packages:
   /rimraf/4.1.2:
     resolution: {integrity: sha512-BlIbgFryTbw3Dz6hyoWFhKk+unCcHMSkZGrTFVAx2WmttdBSonsdtRlwiuTbDqTKr+UlXIUqJVS4QT5tUzGENQ==}
     engines: {node: '>=14'}
-    hasBin: true
     dev: true
 
   /rollup/3.13.0:
     resolution: {integrity: sha512-HJwQtrXAc0AmyDohTJ/2c+Bx/sWPScJLlAUJ1kuD7rAkCro8Cr2SnVB2gVYBiSLxpgD2kZ24jbyXtG++GumrYQ==}
     engines: {node: '>=14.18.0', npm: '>=8.0.0'}
-    hasBin: true
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
@@ -2425,7 +2439,6 @@ packages:
   /sucrase/3.29.0:
     resolution: {integrity: sha512-bZPAuGA5SdFHuzqIhTAqt9fvNEo9rESqXIG3oiKdF8K4UmkQxC4KlNL3lVyAErXp+mPvUqZ5l13qx6TrDIGf3A==}
     engines: {node: '>=8'}
-    hasBin: true
     dependencies:
       commander: 4.1.1
       glob: 7.1.6
@@ -2513,7 +2526,6 @@ packages:
 
   /tree-kill/1.2.2:
     resolution: {integrity: sha512-L0Orpi8qGpRG//Nd+H90vFB+3iHnue1zSSGmNOOCh1GLJ7rUKVwV2HvijphGQS2UmhUZewS9VgvxYIdgr+fG1A==}
-    hasBin: true
     dev: true
 
   /trim-newlines/3.0.1:
@@ -2532,7 +2544,6 @@ packages:
   /tsup/6.5.0_typescript@4.9.5:
     resolution: {integrity: sha512-36u82r7rYqRHFkD15R20Cd4ercPkbYmuvRkz3Q1LCm5BsiFNUgpo36zbjVhCOgvjyxNBWNKHsaD5Rl8SykfzNA==}
     engines: {node: '>=14'}
-    hasBin: true
     peerDependencies:
       '@swc/core': ^1
       postcss: ^8.4.12
@@ -2664,7 +2675,6 @@ packages:
   /typescript/4.9.5:
     resolution: {integrity: sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==}
     engines: {node: '>=4.2.0'}
-    hasBin: true
     dev: true
 
   /unbox-primitive/1.0.2:
@@ -2760,7 +2770,6 @@ packages:
   /which/2.0.2:
     resolution: {integrity: sha512-BLI3Tl1TW3Pvl70l3yq3Y64i+awpwXqsGBYWkkqMtnbXgrMD+yj7rhW0kuEDxzJaYXGjEW5ogapKNMEKNMjibA==}
     engines: {node: '>= 8'}
-    hasBin: true
     dependencies:
       isexe: 2.0.0
     dev: true
