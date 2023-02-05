@@ -1,7 +1,7 @@
 {
-  "name": "@arch-api/http-exceptions-mappers",
-  "version": "2.0.0",
-  "description": "Arch Api - Exceptions Mappers",
+  "name": "@arch-api/http-exceptions",
+  "version": "0.0.0",
+  "description": "Arch Api - Http Exceptions",
   "keywords": [],
   "license": "ISC",
   "author": "Yony Calsin",
@@ -18,7 +18,6 @@
     "dev": "tsup src/index.ts --format esm,cjs --watch --dts"
   },
   "dependencies": {
-    "@arch-api/exceptions": "workspace:*",
     "@arch-api/http-status": "workspace:*"
   },
   "devDependencies": {
