@@ -1,7 +1,8 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
   "display": "Node Setup",
-  "extends": "./node14.json",
-  "include": ["src"],
-  "exclude": ["dist", "node_modules"]
+  "extends": "./base.json",
+  "compilerOptions": {
+    "lib": ["ES2022.Error"]
+  }
 }
