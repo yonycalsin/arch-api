@@ -1,12 +1,10 @@
-type ExceptionData = Record<string, any>
-
 interface ExceptionOptions {
   cause?: unknown
-  data?: ExceptionData
+  code?: string
 }
 
-class Exception extends Error {
-  public readonly data?: ExceptionData
+abstract class Exception extends Error {
+  public readonly code?: string
 
   public constructor(message?: string, options?: ExceptionOptions) {
     super(message, {
@@ -15,7 +13,7 @@ class Exception extends Error {
 
     this.name = this.constructor.name
 
-    this.data = options?.data
+    this.code = options?.code
   }
 }
 
