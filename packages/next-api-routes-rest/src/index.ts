@@ -7,3 +7,4 @@ export { default as CreatedNextApiRouteResponder } from './Responder/CreatedNext
 export { default as JsonNextApiRouteResponder } from './Responder/JsonNextApiRouteResponder'
 export { default as NoContentNextApiRouteResponder } from './Responder/NoContentNextApiRouteResponder'
 export { default as NotFoundNextApiRouteResponder } from './Responder/NotFoundNextApiRouteResponder'
+export { default as NextApiRouteConnect } from './Connect/NextApiRouteConnect'
