@@ -1,5 +1,11 @@
 # @arch-api/next-api-routes-rest
 
+## 1.1.0
+
+### Minor Changes
+
+- [#49](https://github.com/yonycalsin/arch-api/pull/49) [`a78d59e`](https://github.com/yonycalsin/arch-api/commit/a78d59e87ca871e5a0030b78568fe590a19781f1) Thanks [@yonycalsin](https://github.com/yonycalsin)! - add next-api-route-connect
+
 ## 1.0.0
 
 ### Major Changes
