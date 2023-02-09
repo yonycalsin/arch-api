@@ -20,7 +20,9 @@
   "dependencies": {
     "@arch-api/http-status": "workspace:*",
     "@arch-api/rest": "workspace:*",
-    "next-connect": "0.13.0"
+    "@types/cors": "2.8.13",
+    "next-connect": "0.13.0",
+    "nextjs-cors": "2.1.2"
   },
   "devDependencies": {
     "@arch-api/tsconfig": "workspace:*",
