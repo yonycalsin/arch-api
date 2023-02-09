@@ -1,5 +1,12 @@
 # @arch-api/next-api-routes-rest
 
+## 1.2.0
+
+### Minor Changes
+
+- [#51](https://github.com/yonycalsin/arch-api/pull/51) [`fe5c9a2`](https://github.com/yonycalsin/arch-api/commit/fe5c9a2c2902624813e23dfb59edc136de3b80c2) Thanks [@yonycalsin](https://github.com/yonycalsin)! - - add cors middleware
+  - add middleware definition
+
 ## 1.1.0
 
 ### Minor Changes
