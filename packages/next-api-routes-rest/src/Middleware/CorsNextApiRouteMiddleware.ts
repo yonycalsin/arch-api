@@ -14,8 +14,10 @@ class CorsNextApiRouteMiddleware implements NextApiRouteMiddleware {
 
   public static CORS_OPTIONS: CorsNextApiRouteMiddlewareOptions = {}
 
-  public static create() {
-    return new CorsNextApiRouteMiddleware()
+  public static Middleware() {
+    const middleware = new CorsNextApiRouteMiddleware()
+
+    return middleware.execute.bind(middleware)
   }
 
   public async execute(request: HttpRequest, response: HttpResponse, next: NextHandler): Promise<any> {
