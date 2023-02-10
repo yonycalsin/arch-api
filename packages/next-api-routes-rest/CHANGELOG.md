@@ -1,5 +1,13 @@
 # @arch-api/next-api-routes-rest
 
+## 1.3.0
+
+### Minor Changes
+
+- [#55](https://github.com/yonycalsin/arch-api/pull/55) [`8cd3c39`](https://github.com/yonycalsin/arch-api/commit/8cd3c391c6c34e6893469b4258f80cf466c97c65) Thanks [@yonycalsin](https://github.com/yonycalsin)! - add PublicKeyNextApiRouteMiddleware
+
+- [#53](https://github.com/yonycalsin/arch-api/pull/53) [`7d6b688`](https://github.com/yonycalsin/arch-api/commit/7d6b6884c331d3b43701e54379246027712db8a4) Thanks [@yonycalsin](https://github.com/yonycalsin)! - expose the middleware method which binds the execute method
+
 ## 1.2.0
 
 ### Minor Changes
