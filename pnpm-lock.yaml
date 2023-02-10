@@ -139,11 +139,14 @@ importers:
 
   packages/next-api-routes-rest:
     specifiers:
+      '@arch-api/http-exceptions': workspace:1.1.0
       '@arch-api/http-status': workspace:*
       '@arch-api/rest': workspace:*
       '@arch-api/tsconfig': workspace:*
       '@types/cors': 2.8.13
+      '@types/debug': 4.1.7
       '@types/node': 18.11.18
+      debug: 4.3.4
       next: 13.1.6
       next-connect: 0.13.0
       nextjs-cors: 2.1.2
@@ -151,9 +154,12 @@ importers:
       tsup: 6.5.0
       typescript: 4.9.5
     dependencies:
+      '@arch-api/http-exceptions': link:../http-exceptions
       '@arch-api/http-status': link:../http-status
       '@arch-api/rest': link:../rest
       '@types/cors': 2.8.13
+      '@types/debug': 4.1.7
+      debug: 4.3.4
       next-connect: 0.13.0
       nextjs-cors: 2.1.2_next@13.1.6
     devDependencies:
@@ -663,6 +669,12 @@ packages:
       '@types/node': 18.11.18
     dev: false
 
+  /@types/debug/4.1.7:
+    resolution: {integrity: sha512-9AonUzyTjXXhEOa0DnqpzZi6VHlqKMswga9EXjpXnnqxwLtdvPPtlO8evrI5D9S6asFRCQ6v+wpiUKbw+vKqyg==}
+    dependencies:
+      '@types/ms': 0.7.31
+    dev: false
+
   /@types/is-ci/3.0.0:
     resolution: {integrity: sha512-Q0Op0hdWbYd1iahB+IFNQcWXFq4O0Q5MwQP7uN0souuQ4rPg1vEYcnIOfr1gY+M+6rc8FGoRaBO1mOOvL29sEQ==}
     dependencies:
@@ -672,6 +684,10 @@ packages:
   /@types/minimist/1.2.2:
     resolution: {integrity: sha512-jhuKLIRrhvCPLqwPcx6INqmKeiA5EWrsCOPhrlFSrbrmU4ZMPjj5Ul/oLCMDO98XRUIwVm78xICz4EPCektzeQ==}
     dev: true
+
+  /@types/ms/0.7.31:
+    resolution: {integrity: sha512-iiUgKzV9AuaEkZqkOLDIvlQiL6ltuZd9tGcW3gwpnX8JbuiuhFlEGmmFXEXkN50Cvq7Os88IY2v0dkDqXYWVgA==}
+    dev: false
 
   /@types/node/12.20.55:
     resolution: {integrity: sha512-J8xLz7q2OFulZ2cyGTLE1TbbZcjpno7FaN6zdJNrgAdrJ+DZzh/uFR6YrTb4C+nXakvud8Q4+rbhoIWlYQbUFQ==}
@@ -1006,7 +1022,6 @@ packages:
         optional: true
     dependencies:
       ms: 2.1.2
-    dev: true
 
   /decamelize-keys/1.1.1:
     resolution: {integrity: sha512-WiPxgEirIV0/eIOMcnFBA3/IJZAZqKnwAwWyvvdi4lsr1WCN22nhdf/3db3DoZcUjTV2SqfzIwNyp6y2xs3nmg==}
@@ -2082,7 +2097,6 @@ packages:
 
   /ms/2.1.2:
     resolution: {integrity: sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==}
-    dev: true
 
   /mz/2.7.0:
     resolution: {integrity: sha512-z81GNO7nnYMEhrGh9LeymoE4+Yr0Wn5McHIZMK5cfQCl+NDX08sCZgUc9/6MHni9IWuFLm1Z3HTCXu2z9fN62Q==}
