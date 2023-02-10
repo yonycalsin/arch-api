@@ -1,5 +1,11 @@
 # @arch-api/next-api-routes-rest
 
+## 1.4.0
+
+### Minor Changes
+
+- [#56](https://github.com/yonycalsin/arch-api/pull/56) [`8470897`](https://github.com/yonycalsin/arch-api/commit/847089734d6f1617947436480c50eb2d3eb73c6f) Thanks [@yonycalsin](https://github.com/yonycalsin)! - add next-api-config constants
+
 ## 1.3.0
 
 ### Minor Changes
