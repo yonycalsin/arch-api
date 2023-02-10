@@ -11,3 +11,4 @@ export { default as NotFoundNextApiRouteResponder } from './Responder/NotFoundNe
 export { default as CorsNextApiRouteMiddleware } from './Middleware/CorsNextApiRouteMiddleware'
 export { default as PublicKeyNextApiRouteMiddleware } from './Middleware/PublicKeyNextApiRouteMiddleware'
 export { default as NextApiRouteConnect } from './Connect/NextApiRouteConnect'
+export * from './Constants/NextApiConfig'
