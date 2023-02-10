@@ -9,4 +9,5 @@ export { default as JsonNextApiRouteResponder } from './Responder/JsonNextApiRou
 export { default as NoContentNextApiRouteResponder } from './Responder/NoContentNextApiRouteResponder'
 export { default as NotFoundNextApiRouteResponder } from './Responder/NotFoundNextApiRouteResponder'
 export { default as CorsNextApiRouteMiddleware } from './Middleware/CorsNextApiRouteMiddleware'
+export { default as PublicKeyNextApiRouteMiddleware } from './Middleware/PublicKeyNextApiRouteMiddleware'
 export { default as NextApiRouteConnect } from './Connect/NextApiRouteConnect'
