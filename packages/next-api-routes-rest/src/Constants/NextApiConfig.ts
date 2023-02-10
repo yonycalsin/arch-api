@@ -1,0 +1,11 @@
+const NEXT_API_CONFIG_BODY_PARSER = {
+  sizeLimit: '1mb',
+}
+
+const DEFAULT_NEXT_API_CONFIG = {
+  api: {
+    bodyParser: NEXT_API_CONFIG_BODY_PARSER,
+  },
+}
+
+export { NEXT_API_CONFIG_BODY_PARSER, DEFAULT_NEXT_API_CONFIG }
