@@ -4,6 +4,7 @@
 
 - [@arch-api/common](https://github.com/yonycalsin/arch-api/tree/main/packages/common) - [![NPM Version](https://img.shields.io/npm/v/@arch-api/common)](https://www.npmjs.com/package/@arch-api/common)
 - [@arch-api/cqrs](https://github.com/yonycalsin/arch-api/tree/main/packages/cqrs) - [![NPM Version](https://img.shields.io/npm/v/@arch-api/cqrs)](https://www.npmjs.com/package/@arch-api/cqrs)
+- [@arch-api/ddd](https://github.com/yonycalsin/arch-api/tree/main/packages/ddd) - [![NPM Version](https://img.shields.io/npm/v/@arch-api/ddd)](https://www.npmjs.com/package/@arch-api/ddd)
 - [@arch-api/http-status](https://github.com/yonycalsin/arch-api/tree/main/packages/http-status) - [![NPM Version](https://img.shields.io/npm/v/@arch-api/http-status)](https://www.npmjs.com/package/@arch-api/http-status)
 - [@arch-api/exceptions](https://github.com/yonycalsin/arch-api/tree/main/packages/exceptions) - [![NPM Version](https://img.shields.io/npm/v/@arch-api/exceptions)](https://www.npmjs.com/package/@arch-api/exceptions)
 - [@arch-api/http-exceptions](https://github.com/yonycalsin/arch-api/tree/main/packages/http-exceptions) - [![NPM Version](https://img.shields.io/npm/v/@arch-api/http-exceptions)](https://www.npmjs.com/package/@arch-api/http-exceptions)
