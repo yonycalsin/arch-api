@@ -27,7 +27,7 @@ class UUIDv4EntityId implements EntityId<string> {
     return `${this.id}`
   }
 
-  public empty(): string {
+  public static empty(): string {
     return 'empty-uuid-v4-id'
   }
 }
