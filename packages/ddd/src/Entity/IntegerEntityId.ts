@@ -27,8 +27,8 @@ class IntegerEntityId implements EntityId<number> {
     return `${this.id}`
   }
 
-  public static empty(): number {
-    return Number.MIN_SAFE_INTEGER
+  public static empty(): IntegerEntityId {
+    return new IntegerEntityId(Number.MIN_SAFE_INTEGER)
   }
 }
 
