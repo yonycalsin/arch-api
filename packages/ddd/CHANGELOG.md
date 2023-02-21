@@ -1,5 +1,11 @@
 # @arch-api/ddd
 
+## 0.3.0
+
+### Minor Changes
+
+- [`237d32c`](https://github.com/yonycalsin/arch-api/commit/237d32c8ec662bdb41ae4168c5db12a1b0d1fe5f) Thanks [@yonycalsin](https://github.com/yonycalsin)! - create a new instance
+
 ## 0.2.0
 
 ### Minor Changes
