@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "@arch-api/exceptions": "workspace:*",
-    "@arch-api/http-status": "workspace:*"
+    "@arch-api/http-exceptions": "workspace:*"
   },
   "devDependencies": {
     "@arch-api/tsconfig": "workspace:*",
