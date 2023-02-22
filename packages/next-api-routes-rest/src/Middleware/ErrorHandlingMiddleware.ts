@@ -34,8 +34,7 @@ class ErrorHandlingMiddleware {
          * @todo handle the exceptions types correctly
          * @author yonycalsin
          */
-        // @ts-expect-error httpExceptionMapper
-        const httpException = httpExceptionMapper.toHttpException(error) as HttpException
+        const httpException = httpExceptionMapper.toHttpException(error)
 
         return this.httpExceptionToResponse(response, httpException)
       }

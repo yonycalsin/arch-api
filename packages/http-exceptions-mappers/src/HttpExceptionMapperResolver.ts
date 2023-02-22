@@ -2,9 +2,9 @@ import type { Exception } from '@arch-api/exceptions'
 import type HttpExceptionMapper from './HttpExceptionMapper'
 
 class HttpExceptionMapperResolver {
-  private readonly mappers: HttpExceptionMapper<never, never>[]
+  private readonly mappers: HttpExceptionMapper<any, any>[]
 
-  public constructor(mappers: HttpExceptionMapper<never, never>[]) {
+  public constructor(mappers: HttpExceptionMapper<any, any>[]) {
     this.mappers = mappers
   }
 
