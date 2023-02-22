@@ -1,5 +1,12 @@
 # @arch-api/next-api-routes-rest
 
+## 1.6.1
+
+### Patch Changes
+
+- Updated dependencies [[`b3bd571`](https://github.com/yonycalsin/arch-api/commit/b3bd571efafd753a43ca1e5d72eb6562708f67e5)]:
+  - @arch-api/http-exceptions-mappers@2.4.1
+
 ## 1.6.0
 
 ### Minor Changes
