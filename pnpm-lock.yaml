@@ -156,7 +156,9 @@ importers:
 
   packages/next-api-routes-rest:
     specifiers:
+      '@arch-api/exceptions': workspace:*
       '@arch-api/http-exceptions': workspace:*
+      '@arch-api/http-exceptions-mappers': workspace:*
       '@arch-api/http-status': workspace:*
       '@arch-api/rest': workspace:*
       '@arch-api/tsconfig': workspace:*
@@ -171,7 +173,9 @@ importers:
       tsup: 6.5.0
       typescript: 4.9.5
     dependencies:
+      '@arch-api/exceptions': link:../exceptions
       '@arch-api/http-exceptions': link:../http-exceptions
+      '@arch-api/http-exceptions-mappers': link:../http-exceptions-mappers
       '@arch-api/http-status': link:../http-status
       '@arch-api/rest': link:../rest
       '@types/cors': 2.8.13
