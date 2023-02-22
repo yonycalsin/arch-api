@@ -1,5 +1,11 @@
 # @arch-api/http-exceptions-mappers
 
+## 2.4.0
+
+### Minor Changes
+
+- [#65](https://github.com/yonycalsin/arch-api/pull/65) [`2cade83`](https://github.com/yonycalsin/arch-api/commit/2cade837bceb58693f8899caaa448c5c99b3a101) Thanks [@yonycalsin](https://github.com/yonycalsin)! - add http-exception-mapper-resolver
+
 ## 2.3.0
 
 ### Minor Changes
