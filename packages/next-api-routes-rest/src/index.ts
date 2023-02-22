@@ -10,5 +10,6 @@ export { default as NoContentNextApiRouteResponder } from './Responder/NoContent
 export { default as NotFoundNextApiRouteResponder } from './Responder/NotFoundNextApiRouteResponder'
 export { default as CorsNextApiRouteMiddleware } from './Middleware/CorsNextApiRouteMiddleware'
 export { default as PublicKeyNextApiRouteMiddleware } from './Middleware/PublicKeyNextApiRouteMiddleware'
+export { default as ErrorHandlingMiddleware } from './Middleware/ErrorHandlingMiddleware'
 export { default as NextApiRouteConnect } from './Connect/NextApiRouteConnect'
 export * from './Constants/NextApiConfig'

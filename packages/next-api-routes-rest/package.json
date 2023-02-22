@@ -18,7 +18,9 @@
     "dev": "tsup src/index.ts --format esm,cjs --watch --dts"
   },
   "dependencies": {
+    "@arch-api/exceptions": "workspace:*",
     "@arch-api/http-exceptions": "workspace:*",
+    "@arch-api/http-exceptions-mappers": "workspace:*",
     "@arch-api/http-status": "workspace:*",
     "@arch-api/rest": "workspace:*",
     "@types/cors": "2.8.13",
