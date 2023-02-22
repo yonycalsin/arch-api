@@ -100,7 +100,7 @@ importers:
   packages/http-exceptions-mappers:
     specifiers:
       '@arch-api/exceptions': workspace:*
-      '@arch-api/http-status': workspace:*
+      '@arch-api/http-exceptions': workspace:*
       '@arch-api/tsconfig': workspace:*
       '@types/node': 18.11.18
       rimraf: 4.1.2
@@ -108,7 +108,7 @@ importers:
       typescript: 4.9.5
     dependencies:
       '@arch-api/exceptions': link:../exceptions
-      '@arch-api/http-status': link:../http-status
+      '@arch-api/http-exceptions': link:../http-exceptions
     devDependencies:
       '@arch-api/tsconfig': link:../tsconfig
       '@types/node': 18.11.18
