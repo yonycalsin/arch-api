@@ -1,5 +1,16 @@
 # @arch-api/ddd
 
+## 0.4.0
+
+### Minor Changes
+
+- [`5240733`](https://github.com/yonycalsin/arch-api/commit/524073383f1f4fc035489c71314ef2c82edb1caa) Thanks [@yonycalsin](https://github.com/yonycalsin)! - update packages
+
+### Patch Changes
+
+- Updated dependencies [[`5240733`](https://github.com/yonycalsin/arch-api/commit/524073383f1f4fc035489c71314ef2c82edb1caa)]:
+  - @arch-api/exceptions@2.2.0
+
 ## 0.3.0
 
 ### Minor Changes
