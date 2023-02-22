@@ -1,5 +1,11 @@
 # @arch-api/next-api-routes-rest
 
+## 1.6.0
+
+### Minor Changes
+
+- [#67](https://github.com/yonycalsin/arch-api/pull/67) [`d3368a7`](https://github.com/yonycalsin/arch-api/commit/d3368a7be538c8947d4362588ebd7e5ceedd9144) Thanks [@yonycalsin](https://github.com/yonycalsin)! - add error-handling-middleware
+
 ## 1.5.0
 
 ### Minor Changes
